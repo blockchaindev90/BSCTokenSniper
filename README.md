@@ -28,9 +28,9 @@ The bot's source code is heavily obfuscated and compiled to prevent people steal
 4.	Go to repo directory : cd BSCTokenSniper 
 5.	Install web3 : pip install web3  
 
-** If you are not familiar with Python please have a look at https://github.com/blockchaindev90/BscTokenSniper/releases/, there you can download Windows executable. **
+** If you are not familiar with Python please have a look at https://github.com/blockchaindev90/BSCTokenSniper/releases/, there you can download Windows executable. **
 ### Setup file config.json
-Setup by flow https://github.com/blockchaindev90/BscTokenSniper/blob/main/BSC%20Sniper%20Bot%20with%20QUICK%20NODE%20Guide%20v2.1%20(%20Websocket%20supported).pdf
+Setup by flow https://github.com/blockchaindev90/BSCTokenSniper/blob/main/BSC%20Sniper%20Bot%20with%20QUICK%20NODE%20Guide%20v2.1%20(%20Websocket%20supported).pdf
 ### Description
 The aim of BSC Token Sniper is to buy new tokens with a specified amount of BNB, with the aim of the price rising Once the bot detects a PairCreated event, it is able to check the token (mini audit).
  It can check if:
