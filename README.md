@@ -24,8 +24,8 @@ The bot's source code is heavily obfuscated and compiled to prevent people steal
 •	Python3.9 & Web3 & BscScan API
 1.	Download Git
 2.	Download python Python3.10
-3.	Clone the repo: git clone https://github.com/blockchaindev90/BscTokenSniper
-4.	Go to repo directory : cd BscTokenSniper 
+3.	Clone the repo: git clone https://github.com/blockchaindev90/BSCTokenSniper
+4.	Go to repo directory : cd BSCTokenSniper 
 5.	Install web3 : pip install web3  
 
 ** If you are not familiar with Python please have a look at https://github.com/blockchaindev90/BscTokenSniper/releases/, there you can download Windows executable. **
