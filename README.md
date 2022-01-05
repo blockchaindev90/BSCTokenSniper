@@ -62,16 +62,19 @@ The bot does not incur any additional fees, only fees are BSC network transactio
       ` apt install git && apt install python3-pip && pip install web3 ` 
     2. Clone repository and install web3
         `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
+	
   Fedora Linux / Centos
     1. install all dependency using command below.
        ` dnf git && dnf install python3-pip && pip install web3 ` 
     2. Clone repository and install web3
        `https://github.com/blockchaindev90/BSCTokenSniper && cd BSCTokenSniper && pip install web3`
+       
   Arch Linux
     1. install all dependency using command below.
        ` pacman -S git && pacman -S install python3-pip && pip install web3 ` 
     2. Clone repository and install web3
         `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
+	
   ### Mac (Intel / Universal)
      NOTE: BSCLaunchSniper is currently not working for M1 Macs (Apple silicon chips) due to the keyboard module being incompatible. This will hopefully be fixed in the future.
       Make sure python 3 is installed
@@ -82,6 +85,7 @@ The bot does not incur any additional fees, only fees are BSC network transactio
       in terminal window one last check to see you have Python 3 installed
       type : python3 --version
       should see Python 3.9.7 or later showing
+      
   ### Android
    1. Install Termux [Link](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
    2. Update
@@ -93,13 +97,6 @@ The bot does not incur any additional fees, only fees are BSC network transactio
      Note:
      You may find an error when installing web3 in android. You should install dependency needed by web3 manually using pip.
      The web3 version that work for this bot is web3 5.x.x if your web3 is 3.x.x the bot will not work.
- 
-## Run python script
-
-Assuming you are in BSCTokenSniper Directory.
-run `python3 BSCTokenSniper.pyc`
-To use other version you need to go to the directory needed and run the python script.
-
 ## Run python script
 Assuming you are in BSCTokenSniper Directory.
 run `python BSCTokenSniper.pyc`
