@@ -138,4 +138,5 @@ If a programmer creates token code in a unique way, they may be able to bypass d
 - Allow user to set slippage percentage
 ### If you’ve found this bot useful and have profited from it please consider donating any token to my BSC wallet address: 0x6Cf2dE5aF8951Bc5ab4B80360fa9F821B767Ce04
 Thanks 
+
 Blockchain Guru and dev team
