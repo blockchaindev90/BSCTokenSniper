@@ -58,33 +58,30 @@ The bot does not incur any additional fees, only fees are BSC network transactio
   ### Linux User
   Install package With `sudo`
   Debian / Ubuntu : 
-    1. install all dependency using command below.
-      ` apt install git && apt install python3-pip && pip install web3 ` 
-    2. Clone repository and install web3
-        `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
-	
+    1. install all dependency using command below : ` apt install git && apt install python3-pip && pip install web3 ` 
+      
+    2. Clone repository and install web3 : `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
+        
   Fedora Linux / Centos
-    1. install all dependency using command below.
-       ` dnf git && dnf install python3-pip && pip install web3 ` 
-    2. Clone repository and install web3
-       `https://github.com/blockchaindev90/BSCTokenSniper && cd BSCTokenSniper && pip install web3`
+    1. install all dependency using command below : ` dnf git && dnf install python3-pip && pip install web3 ` 
+       
+    2. Clone repository and install web3 : `https://github.com/blockchaindev90/BSCTokenSniper && cd BSCTokenSniper && pip install web3`
        
   Arch Linux
-    1. install all dependency using command below.
-       ` pacman -S git && pacman -S install python3-pip && pip install web3 ` 
-    2. Clone repository and install web3
-        `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
-	
+    1. install all dependency using command below : ` pacman -S git && pacman -S install python3-pip && pip install web3 ` 
+       
+    2. Clone repository and install web3 : `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
+        
   ### Mac (Intel / Universal)
-     NOTE: BSCLaunchSniper is currently not working for M1 Macs (Apple silicon chips) due to the keyboard module being incompatible. This will hopefully be fixed in the future.
-      Make sure python 3 is installed
-      open terminal window
-      type : python3 --version
-      if you get an error message and python3 isn't installed, you need to add it.
-      go to https://www.python.org/ and install latest version of python for mac
-      in terminal window one last check to see you have Python 3 installed
-      type : python3 --version
-      should see Python 3.9.7 or later showing
+    NOTE: BSCLaunchSniper is currently not working for M1 Macs (Apple silicon chips) due to the keyboard module being incompatible. This will hopefully be fixed in the future.
+    Make sure python 3 is installed
+    open terminal window
+    type : python3 --version
+    if you get an error message and python3 isn't installed, you need to add it.
+    go to https://www.python.org/ and install latest version of python for mac
+    in terminal window one last check to see you have Python 3 installed
+    type : python3 --version
+   should see Python 3.9.7 or later showing
       
   ### Android
    1. Install Termux [Link](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
