@@ -14,19 +14,18 @@ The bot does not incur any additional fees except from the dev fees on profit ma
 The bot's source code is heavily obfuscated and compiled to prevent people stealing code and scammers trying to bypass this system as this has happened before. If you have concerns about the security of this bot then you should create a new wallet with a small amount of BNB and use that wallet's details in the config file. If you make a profit then that can be transferred to your main wallet.
 
 ### Prerequisites
-•	Windows
 •	A reasonably fast internet connection
-•	Python 3 or later installed (ideally 3.9.7 or later)
+•	Python 3 or later installed (ideally 3.9.9 or later)
 •	BscScan API key
 •	BSC wallet address and private key (not seed phrase)
 •	A BSC node
 •	Enough BNB in your wallet to snipe tokens
-•	Python3.9 & Web3 & BscScan API
+•	Python3.9.9 & Web3 & BscScan API
 1.	Download Git
-2.	Download python Python3.10
+2.	Download python Python3.9.9
 3.	Clone the repo: git clone https://github.com/blockchaindev90/BSCTokenSniper
 4.	Go to repo directory : cd BSCTokenSniper 
-5.	Install web3 : pip install web3  
+5.	Install web3 : pip install web3
 
 ** If you are not familiar with Python please have a look at https://github.com/blockchaindev90/BSCTokenSniper/releases/, there you can download Windows executable. **
 ### Setup file config.json
