@@ -48,12 +48,57 @@ The bot does not incur any additional fees, only fees are BSC network transactio
   2. Linux 
   3. Mac 
   4. Android 
-
 ## **INSTALLATION**
   ### Windows
+   1. Download git [Git](https://git-scm.com/)
+   2. . Clone the repo or download repo: 
+    - `https://github.com/blockchaindev90/BSCTokenSniper.git`
+   3. Download python version 3.9.9 [Python](https://www.python.org/)
+   4. run `launch.bat`
   ### Linux User
-  ### MacOS
+  Install package With `sudo`
+  Debian / Ubuntu : 
+    1. install all dependency using command below.
+      ` apt install git && apt install python3-pip && pip install web3 ` 
+    2. Clone repository and install web3
+        `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
+  Fedora Linux / Centos
+    1. install all dependency using command below.
+       ` dnf git && dnf install python3-pip && pip install web3 ` 
+    2. Clone repository and install web3
+       `https://github.com/blockchaindev90/BSCTokenSniper && cd BSCTokenSniper && pip install web3`
+  Arch Linux
+    1. install all dependency using command below.
+       ` pacman -S git && pacman -S install python3-pip && pip install web3 ` 
+    2. Clone repository and install web3
+        `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper && pip install web3`
+  ### Mac (Intel / Universal)
+     NOTE: BSCLaunchSniper is currently not working for M1 Macs (Apple silicon chips) due to the keyboard module being incompatible. This will hopefully be fixed in the future.
+      Make sure python 3 is installed
+      open terminal window
+      type : python3 --version
+      if you get an error message and python3 isn't installed, you need to add it.
+      go to https://www.python.org/ and install latest version of python for mac
+      in terminal window one last check to see you have Python 3 installed
+      type : python3 --version
+      should see Python 3.9.7 or later showing
   ### Android
+   1. Install Termux [Link](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
+   2. Update
+      `pkg update && pkg upgrade`
+   3. Install dependency
+     `pkg install git python3 python3-pip`
+    4. Clone the repo using git
+	    `https://github.com/blockchaindev90/BSCTokenSniper.git && cd BSCTokenSniper`
+     Note:
+     You may find an error when installing web3 in android. You should install dependency needed by web3 manually using pip.
+     The web3 version that work for this bot is web3 5.x.x if your web3 is 3.x.x the bot will not work.
+ 
+## Run python script
+
+Assuming you are in BSCTokenSniper Directory.
+run `python3 BSCTokenSniper.pyc`
+To use other version you need to go to the directory needed and run the python script.
 
 ## Run python script
 Assuming you are in BSCTokenSniper Directory.
@@ -62,6 +107,7 @@ To use other version you need to go to the directory needed and run the python s
 ** If you are not familiar with Python please have a look at https://github.com/blockchaindev90/BSCTokenSniper/releases/, there you can download Windows executable. **
 ## Configuration File
 Setup file config.json
+https://github.com/blockchaindev90/BSCTokenSniper/blob/main/BSC%20Sniper%20Bot%20with%20QUICK%20NODE%20Guide%20v2.1.1%20(%20Websocket%20supported).pdf
 ### Mini audit
 The bot has an optional mini audit feature which aims to filter some of the scam coins (eg. wrongly configured, honeypots). Obviously, this is not going to be as good as a proper audit (eg. CertiK) but at least the coins the bot will buy will be higher quality and if you enable the options, you should be able to sell the tokens later on (provided it hasn’t been rugged).
 The following json entries are for mini audit. Set all to false to disable mini audits, although beware you will probably be buying a lot of scam coins.
