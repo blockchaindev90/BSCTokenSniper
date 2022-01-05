@@ -3,8 +3,7 @@
 ## TELEGRAM GROUP: https://t.me/+KXvQjzlHv8c2NGU1 - please join to assist in development, ask questions, share any successes etc.
 ## BSCTokenSniper v2.2 in development and will be released in next few days.
 
-## BSCTokenSniper v2.1 Beta available
-# BSCTokenSniper v2.1.1 Beta
+## BSCTokenSniper v2.1.1 Beta available
 Improvements:
 - Added code blacklist (rug_function.txt): the program will ignore any program with code that is in this file
 - Added min liquidity checker (won't buy token unless it has certain amount of liquidity) - edit threshold in config.json
@@ -20,7 +19,7 @@ By avoiding web interfaces & Metamask and directly with nodes you can snipe toke
 The bot does not incur any additional fees except from the dev fees on profit made, only fees are BSC network transaction fees and PancakeSwap fees.
 The bot's source code is heavily obfuscated and compiled to prevent people stealing code and scammers trying to bypass this system as this has happened before. If you have concerns about the security of this bot then you should create a new wallet with a small amount of BNB and use that wallet's details in the config file. If you make a profit then that can be transferred to your main wallet.
 
-# Prerequisites
+### Prerequisites
 - Python 3 or later installed
 - Node.js installed (easiest way) – Install windows version from https://nodejs.org/en/download/
 - Web3 installed (in windows command line type: pip install web3)
@@ -43,28 +42,27 @@ By avoiding web interfaces & Metamask and directly with Ethereum & EVM Nodes you
 The bot buys the tokens using the user's wallet address and private key. This information is kept secure, is only stored locally on your computer, and is only ever used to buy tokens (look through the code to see for yourself).
 The bot does not incur any additional fees, only fees are BSC network transaction fees and PancakeSwap fees.
 
-# Setup
- ## Supported OS's
+## Setup
+ ### Supported OS's
   1. Windows
   2. Linux 
   3. Mac 
-  4.  Android 
+  4. Android 
 
-# **INSTALLATION**
-  ## Windows
-  ## Linux User
-  ## MacOS
-  ## Android
+## **INSTALLATION**
+  ### Windows
+  ### Linux User
+  ### MacOS
+  ### Android
 
 ## Run python script
 Assuming you are in BSCTokenSniper Directory.
-run `python BSCTokenSniper.py`
+run `python BSCTokenSniper.pyc`
 To use other version you need to go to the directory needed and run the python script.
 ** If you are not familiar with Python please have a look at https://github.com/blockchaindev90/BSCTokenSniper/releases/, there you can download Windows executable. **
-### Setup file config.json
-# Configuration File
-
-# Mini audit
+## Configuration File
+Setup file config.json
+### Mini audit
 The bot has an optional mini audit feature which aims to filter some of the scam coins (eg. wrongly configured, honeypots). Obviously, this is not going to be as good as a proper audit (eg. CertiK) but at least the coins the bot will buy will be higher quality and if you enable the options, you should be able to sell the tokens later on (provided it hasn’t been rugged).
 The following json entries are for mini audit. Set all to false to disable mini audits, although beware you will probably be buying a lot of scam coins.
 checkSourceCode: checks if source code is verified. This function is needed for all the other functions so if you disable this be sure to disable all the other audit options. Recommended. v1.3 onwards will use RugDoc tool to check for honeypots and high fee tokens.
@@ -76,7 +74,7 @@ checkForTest: checks for tokens that are named 'test'. Often these tokens don't 
 
 Note: be very careful when editing config.json and make sure to not alter the syntax. For mini audit options, either use “True” or “False” making sure to capitalise the 1st letter. Any other spelling will not work.
 
-# Things to note
+### Things to note
 -	Do not worry if you are not seeing any new tokens being detected. There are often around 10-20 new tokens being created per minute but that can vary quite a lot. Sometimes no new tokens may be detected for a few minutes.
 -	The bot only buys tokens whose liquidity is paired with Wrapped BNB (WBNB). You could alter the code to buy tokens paired with another currency if you wanted.
 -	Please check that you have enough BNB in your wallet to afford sniping new tokens. If you don’t the bot will not work.
