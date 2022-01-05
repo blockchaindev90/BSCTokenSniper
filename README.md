@@ -1,6 +1,6 @@
 # 🚀 Pancakeswap BSC Sniper Bot 🚀
 
-## TELEGRAM GROUP: https://t.me/pancakeswap_sniper_bot_v2 - please join to assist in development, ask questions, share any successes etc.
+## TELEGRAM GROUP: https://t.me/+KXvQjzlHv8c2NGU1 - please join to assist in development, ask questions, share any successes etc.
 ## BSCTokenSniper v2.2 in development and will be released in next few days.
 
 ## BSCTokenSniper v2.1 Beta available
