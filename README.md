@@ -54,7 +54,9 @@ The bot does not incur any additional fees, only fees are BSC network transactio
    2. . Clone the repo or download repo: 
     - `https://github.com/blockchaindev90/BSCTokenSniper.git`
    3. Download python version 3.9.9 [Python](https://www.python.org/)
-   4. run `launch.bat`
+   4. Run CMD : pip install web3
+   5. run `launch.bat`
+   #### Note if you get error when running pip install web3 , check this 				 https://github.com/blockchaindev90/BSCTokenSniper/blob/main/guide%20to%20fix%20errors%20when%20installing%20web3.pdf ***
   ### Linux User
   Install package With `sudo`
   Debian / Ubuntu : 
