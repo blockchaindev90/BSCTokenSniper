@@ -138,7 +138,7 @@ If a programmer creates token code in a unique way, they may be able to bypass d
  - Also maybe an option to sell it at a certain price point. Look what happened to Refinable, a bot bought a huge chunk of the tokens and made an insane amount of money in a few minutes.
 - Improve reliability: the program can sometimes unexpectedly freeze. This is being investigated.
 - Allow user to set slippage percentage
-### If you’ve found this bot useful and have profited from it please consider donating any token to my BSC wallet address: 0x6Cf2dE5aF8951Bc5ab4B80360fa9F821B767Ce04
+### If you’ve found this bot useful and have profited from it please consider donating any token to my BSC wallet address: 0x581424c4ED701F261f0A963386cc437Ed986ea34
 Thanks 
 
 Blockchain Guru and dev team
