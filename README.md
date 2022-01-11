@@ -53,9 +53,11 @@ The bot does not incur any additional fees, only fees are BSC network transactio
    1. Download git [Git](https://git-scm.com/)
    2. . Clone the repo or download repo: 
     - `https://github.com/blockchaindev90/BSCTokenSniper.git`
-   3. Download python version 3.9.9 [Python](https://www.python.org/)
+   3. Download python  [Python](https://www.python.org/) ( should see Python 3.9.8 or later showing)
    4. Run CMD : pip install web3
-   5. run `launch.bat`
+   5. Check python version : python --version
+   6. Select BSCTokenSniper bot with your python version
+   7. run bat file ( ex : launch_3.10.1.bat)
    #### Note if you get error when running pip install web3 , check this 				 https://github.com/blockchaindev90/BSCTokenSniper/blob/main/guide%20to%20fix%20errors%20when%20installing%20web3.pdf ***
   ### Linux User
   Install package With `sudo`
@@ -83,7 +85,7 @@ The bot does not incur any additional fees, only fees are BSC network transactio
     go to https://www.python.org/ and install latest version of python for mac
     in terminal window one last check to see you have Python 3 installed
     type : python3 --version
-   should see Python 3.9.7 or later showing
+   should see Python 3.9.8 or later showing
       
   ### Android
    1. Install Termux [Link](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
